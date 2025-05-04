@@ -4,22 +4,76 @@
     <title>Email CUSD Leadership</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { font-family: Arial; max-width: 600px; margin: 0 auto; padding: 20px; }
-        .button { background-color: #4CAF50; color: white; padding: 15px 25px; 
-                 text-decoration: none; display: inline-block; border-radius: 4px; font-size: 16px; }
+        body { font-family: Arial; max-width: 600px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        .button { 
+            background-color: #4CAF50; 
+            color: white; 
+            padding: 15px 25px; 
+            text-decoration: none; 
+            display: inline-block; 
+            border-radius: 4px; 
+            font-size: 18px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .urgent { 
+            color: #d32f2f; 
+            font-weight: bold; 
+            font-size: 18px; 
+            margin-bottom: 20px;
+        }
+        .info-box {
+            background-color: #f5f5f5;
+            border-left: 4px solid #2196F3;
+            padding: 10px 15px;
+            margin: 20px 0;
+        }
+        .steps {
+            counter-reset: step-counter;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .steps li {
+            margin-bottom: 10px;
+            counter-increment: step-counter;
+        }
+        .steps li::before {
+            content: counter(step-counter);
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            padding: 3px 8px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
-    <h2>Take Action: Remove Political Symbols from McAuliffe Yearbook</h2>
+    <h1>Take Action: Remove Political Symbols from McAuliffe Yearbook</h1>
     
-    <p>Click the button below to open an email addressed to CUSD leadership:</p>
+    <p class="urgent">URGENT: Yearbooks are about to be distributed with political symbols that violate district policies</p>
+    
+    <div class="info-box">
+        <p><strong>Why this matters:</strong> Political symbols in the yearbook create a permanent record that affects Jewish and Israeli students and families. District policies prohibit political expressions by employees, yet these symbols are about to appear in an official school publication.</p>
+    </div>
+
+    <ol class="steps">
+        <li>Click the button below to open a pre-filled email</li>
+        <li>Review the email and add your name at the bottom</li>
+        <li>Send the email to CUSD leadership</li>
+    </ol>
     
     <a 
         class="button" 
-        href="mailto:yao_stacy@cusdk8.org?cc=ghelber_mike@cusdk8.org,vangorden_adrienne@cusdk8.org,liu_jerry@cusdk8.org,leong_sylvia@cusdk8.org,chiao_ava@cusdk8.org,madhathil_satheesh@cusdk8.org,longjiao@gmail.com&subject=IMMEDIATE ACTION NEEDED: Remove Political Symbols from McAuliffe Yearbook&body=Dear Superintendent Yao, Associate Superintendent Ghelber, Principal Van Gorden, and CUSD Board Trustees,%0A%0AI urge you to take immediate action regarding the inclusion of political symbols in the McAuliffe School yearbook before distribution occurs.%0A%0AYour own policies and applicable legal precedents are clear on this matter:%0A%0A1. CUSD Board Policy 4119.25 explicitly prohibits political activities of employees while on duty%0A2. California Education Code § 7050-7058 restricts political activities of school officers and employees%0A3. California Education Code § 51101.7 requires a school environment that is 'safe and supporting of learning'%0A4. California Education Code § 49091.12(a) protects students from having to 'affirm or disavow any particular personally or privately held world view, religious doctrine, or political opinion'%0A5. Title VI of the Civil Rights Act of 1964 prohibits creating a hostile environment based on race, ethnicity, or national origin%0A%0AAs established in CDE Case Matter 2025-0008 (Campbell), what adult staff members observe is not definitive evidence of how political symbols affect students. This precedent recognizes that students' experiences must be centered when assessing hostile environments.%0A%0AAllowing political symbols in the yearbook:%0A1. Directly contradicts your own policies%0A2. Creates an unwelcoming environment for Jewish and Israeli students%0A3. Establishes a permanent record of political messaging in an official school publication%0A4. Sets a concerning precedent for future political expressions in school environments%0A%0AYou have both the authority and responsibility to act on this matter NOW, independent of any ongoing investigation. The distribution of yearbooks is imminent, making this issue time-critical.%0A%0APlease fulfill your responsibility to protect children from political agendas by taking one of these straightforward actions:%0A- Replace the class photo%0A- Edit the image to remove political symbols%0A- Insert an alternative class photo%0A%0AI respectfully request your immediate attention to this matter.%0A%0ASincerely,%0A[SIGN YOUR NAME HERE]%0AConcerned CUSD Community Member" 
+        href="mailto:yao_stacy@cusdk8.org?cc=ghelber_mike@cusdk8.org,vangorden_adrienne@cusdk8.org,liu_jerry@cusdk8.org,leong_sylvia@cusdk8.org,chiao_ava@cusdk8.org,madhathil_satheesh@cusdk8.org,longjiao@gmail.com&bcc=jparentsmcauliffe@gmail.com&subject=IMMEDIATE ACTION NEEDED: Remove Political Symbols from McAuliffe Yearbook&body=Dear Superintendent Yao, Associate Superintendent Ghelber, Principal Van Gorden, and CUSD Board Trustees,%0A%0AI urge you to take immediate action regarding political symbols (keffiyeh and Palestinian flag pin) in the McAuliffe School yearbook before distribution.%0A%0ADistrict policies clearly prohibit this content:%0A• Board Policy 4119.25: Prohibits political activities by employees on duty%0A• Ed Code § 51101.7: Requires a 'safe and supporting' learning environment%0A• Ed Code § 49091.12(a): Protects students from political pressure%0A• Title VI of Civil Rights Act: Prohibits hostile environments based on ethnicity%0A%0ACDE Case 2025-0008 (Campbell) established that students' experiences must be centered when assessing hostile environments.%0A%0AAllowing these symbols in the yearbook:%0A• Contradicts district policies%0A• Creates an unwelcoming environment for Jewish/Israeli students%0A• Establishes a permanent record of political messaging%0A• Sets a concerning precedent for political expression in schools%0A%0AYou have both the authority and responsibility to act NOW, independent of any ongoing investigation. Yearbook distribution is imminent.%0A%0APlease take immediate action by:%0A- Replacing the class photo%0A- Editing the image to remove political symbols%0A- Inserting an alternative class photo%0A%0ASincerely,%0AConcerned CUSD Community Member" 
         target="_blank"
     >
-        Open Email
+        OPEN EMAIL NOW
     </a>
+
+    <div class="info-box" style="margin-top: 30px;">
+        <p><strong>Note:</strong> Please remember to add your name before sending. Your voice makes a difference!</p>
+        <p>If clicking the button doesn't work, check if you have an email app installed and set as default on your device.</p>
+    </div>
 </body>
 </html>
